@@ -4,43 +4,82 @@
     color:black;
     list-style:none;
 }
+#page-wrapper {
+    float: left;  width: 100%;  min-height: 1000px;  background: url(../img/bg.png);
+}
 #page {
-    float: left;
-    width: 100%;
+    width: 1024px;
     min-height: 1000px;
+    margin: 0 auto;
+    background: white;
+    padding: 0 10px;
 }
 header {
-    margin: 0 auto;
-    width: 1024px;
+    width: 100%;
+    min-height: 107px;
+    float: left;
 }
 #header-wrapper {
     float: left;
     width: 100%;
+    margin-top: 15px;
     min-height: 70px;
+}
+#header-right {
+    float: right;
+    width: 350px;
 }
 .logo {
     float: left;
     margin-right: 10px;
+    margin-left: 10px;
 }
 #login-box {
-    float: right;
-    height: 50px;
+    float: left;
+    height: 21px;
     width: 360px;
+}
+
+#search-box {
+    float: right;
+    width: 197px;
+    margin-top: 10px;
 }
 .menu {
     float: left;
-    width: 79%;
-    height: 28px;
+    width: 100%;
+    height: 37px;
+    margin-top: 23px;
+    background: url(../img/bgmenu.jpg) repeat-x;
+    border: 1px solid #f0f0f0;
 }
 .menu > ul > li {
     float: left;
-    padding: 0 10px;
+    padding: 0 15px;
+    border-right: 1px solid #dedede;
+    height: 35px;
 }
 .menu > ul {
     float: left;
     width: 100%;
+    height: 36px;
 }
-#search-box {
-    float: right;
-    width: 210px;
+.menu > ul > li > a {
+    color: #777;
+    text-decoration: none;
+    font-family: "Trebuchet MS",Verdana,Arial,sans-serif;
+    font-size: 13px;
+    float: left;
+    margin-top: 9px;
+    width: 100%;
 }
+.menu > ul > li:hover a{
+    color: #d33;
+   
+}
+.menu > ul > li:hover{
+    
+    border-bottom:2px solid #d33;
+   
+}
+
