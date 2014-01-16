@@ -1,0 +1,46 @@
+*{
+    margin:0;
+    padding:0;
+    color:black;
+    list-style:none;
+}
+#page {
+    float: left;
+    width: 100%;
+    min-height: 1000px;
+}
+header {
+    margin: 0 auto;
+    width: 1024px;
+}
+#header-wrapper {
+    float: left;
+    width: 100%;
+    min-height: 70px;
+}
+.logo {
+    float: left;
+    margin-right: 10px;
+}
+#login-box {
+    float: right;
+    height: 50px;
+    width: 360px;
+}
+.menu {
+    float: left;
+    width: 79%;
+    height: 28px;
+}
+.menu > ul > li {
+    float: left;
+    padding: 0 10px;
+}
+.menu > ul {
+    float: left;
+    width: 100%;
+}
+#search-box {
+    float: right;
+    width: 210px;
+}
