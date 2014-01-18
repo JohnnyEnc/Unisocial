@@ -1,4 +1,4 @@
-﻿*{
+*{
     margin:0;
     padding:0;
     color:black;
@@ -59,6 +59,28 @@ header {
 #login-down ul li{
 	float:left;
 	margin-left: 10px;
+}
+.txtUser {
+    float: left;  height: 26px;  padding-left: 4px;  border-radius: 4px;  border: 1px solid #ccc;  
+    width: 120px;
+}
+.txtPass {
+    float: left;  height: 26px;  padding-left: 4px;  border-radius: 4px;  border: 1px solid #ccc;  
+    width: 150px;
+}
+#login-up ul li span {
+    float: left !important;
+    text-align: left !important;
+    width: 34px;
+}
+.btnLogin {
+    float: left;
+    border: none;
+    padding: 5px;
+    color: white;
+    background: #d33;
+    height: 28px;
+    cursor: pointer;
 }
 #search-box {
     float: right;

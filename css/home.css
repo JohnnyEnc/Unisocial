@@ -1,0 +1,252 @@
+*{
+    margin:0;
+    padding:0;
+    color:black;
+    list-style:none;
+    font-family: 'Freight Sans Bold', 'lucida grande',tahoma,verdana,arial,sans-serif;
+}
+body {
+    width: 100%;
+    float: left;
+    background: url(../img/bg.png);
+}
+#page-wrapper {  
+    width: 1024px;  
+    min-height: 668px;  
+    margin: 0 auto;
+}
+#page {
+    width: 1024px;
+    min-height: 571px;
+    margin: 0 auto;
+    background: white;
+    float: left;
+}
+header {
+    width: 100%;
+    min-height: 91px;
+    float: left;
+    border-bottom: 2px solid #e01a22;
+}
+#header-wrapper {
+    float: left;
+    width: 100%;
+    margin-top: 15px;
+    min-height: 70px;
+}
+#header-right {
+    float: right;
+    width: 364px;
+    height: 86px;
+}
+.logo {
+    float: left;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+#search-box {
+    float: right;
+    width: 212px;
+    margin-top: 50px;
+}
+.searchbox {
+    width: 150px;  height: 30px;  
+    padding: 0 5px;  border: 1px solid #ddd;  
+    border-radius: 4px 0px 0px 4px;
+    float: left;
+}
+.btnSearch {
+    padding: 5px;
+    height: 32px;
+    border: none;
+    background: #d33;
+    color: white;
+    cursor: pointer;
+}
+.menu {
+    float: left;
+    width: 99.9%;
+    height: 37px;
+    background: url(../img/bgmenu.jpg) repeat-x;
+    border: 1px solid #f0f0f0;
+}
+.menu > ul > li {
+    float: left;
+    padding: 0 15px;
+    border-right: 1px solid #dedede;
+    height: 35px;
+}
+.menu > ul {
+    float: left;
+    width: 100%;
+    height: 36px;
+}
+.menu > ul > li > a {
+    color: #777;
+    text-decoration: none;
+    font-family: "Trebuchet MS",Verdana,Arial,sans-serif;
+    font-size: 13px;
+    float: left;
+    margin-top: 9px;
+    width: 100%;
+}
+.menu > ul > li:hover a{
+    color: #d33;
+   
+}
+.menu > ul > li:hover{
+    
+    border-bottom:2px solid #d33;
+   
+}
+
+#left-column {
+    float: left;
+    width: 18%;
+    margin-top: 10px;
+    padding: 0 5px 0px 10px;
+    min-height: 500px;
+}
+#right-column {
+    float: left;
+    width: 17%;
+    margin-top: 10px;
+}
+
+#requests {
+    float: left;
+    width: 100%;
+}
+.requestTitle {
+    float: left;
+    width: 96%;
+    border-bottom: 1px solid #d33;
+    padding-bottom: 3px;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.requests {
+    float: left;
+    width: 100%;
+    font-size: 12px;
+}
+#timeline {
+    float: left;
+    width: 62%;
+    min-height: 500px;
+    margin-right: 10px;
+}
+.whats-new {
+    float: left;
+    width: 100%;
+    margin-top: 9px;
+    margin-bottom: 10px;
+}
+.post-something {
+    width: 96%;
+    height: 32px;
+    margin-bottom: 11px;
+    padding: 10px;
+}
+.post {
+    float: left;
+    width: 99%;
+    margin-bottom: 26px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 3px;
+}
+.you-display {
+    float: left;
+    margin-right: 6px;
+}
+.member-name {
+    float: left;
+    width: 90.1%;
+    font-size: 13px;
+    color: blue;
+}
+
+.post > p {
+    float: left;
+    font-size: 13px;
+    width: 90%;
+    margin-top: 3px;
+    margin-bottom: 21px;
+}
+.post-info {
+    float: left;
+    width: 100%;
+}
+.post-info > ul {
+    width: 41%;
+    float: right;
+}
+.post-info > ul > li {
+    float: left;
+    padding: 0 3px;
+    font-size: 12px;
+    text-align: right;
+}
+.post-info > ul > li > a {
+    float: right;
+    color: blue;
+    text-decoration: none;
+    font-size: 12px;
+    text-align: right;
+}
+#you {
+    float: left;
+    width: 100%;
+}
+.post-image {
+    float: left;  margin-right: 10px;
+}
+.your-name {
+    float: left;
+    font-size: 14px;
+    color: blue;
+    margin-top: 14px;
+    width: 56%;
+}
+#you > ul {
+    float: left;
+    width: 78%;
+    margin-top: 10px;
+    margin-left: 46px;
+    margin-bottom: 10px;
+}
+#you > ul > li {
+    float: left;
+    width: 100%;
+    font-size: 14px;
+    list-style: square;
+    color: #d33;
+    margin-bottom: 5px;
+}
+#you > ul > li > a {
+    text-decoration: none;
+    float: right;
+    width: 100%;
+}
+.blue-Title {
+    float: left;  width: 96%;  border-bottom: 1px solid #d33;  padding-bottom: 3px;  font-size: 14px;  margin-bottom: 10px;
+}
+#you > ul > li > a:hover {
+    text-decoration: underline;
+    color: #d33;
+}
+#footer {
+    float: left;
+    height: 26px;
+    width: 1024px;
+    padding-top: 41px;
+}
+#footer-wrapp{
+    width: 600px;
+    height: 20px;
+    margin: 0 auto;
+}
+#footer span{
+    font-size: 12px;
+}
