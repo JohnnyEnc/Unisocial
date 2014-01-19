@@ -1,4 +1,4 @@
-*{
+﻿*{
     margin:0;
     padding:0;
     color:black;
@@ -37,7 +37,7 @@ header {
 #header-right {
     float: right;
     width: 364px;
-    height: 86px;
+    height: 65px;
 }
 .logo {
     float: left;
@@ -249,4 +249,27 @@ header {
 }
 #footer span{
     font-size: 12px;
+}
+
+#groups {
+    float: left;
+    width: 100%;
+    margin-top: 15px;
+}
+.grupos {
+    float: left;
+    width: 100%;
+    font-size: 12px;
+}
+#members-amigos {
+    float: left;
+    width: 100%;
+}
+#members-amigos {
+    float: left;
+    width: 100%;
+}
+#members-maestros {
+    float: left;
+    width: 100%;
 }
